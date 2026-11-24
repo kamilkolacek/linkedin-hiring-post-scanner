@@ -1,0 +1,191 @@
+{
+  "_note": "Copy this file to config.json (git-ignored) and fill in your own details. Nothing in config.json is ever committed.",
+  "workspace": "/path/to/your/job-search/folder",
+  "tracker": "Job_Application_Tracker.xlsx",
+  "resume_glob": "Your_Name_CV_*.docx",
+  "github_url": "https://github.com/your-username",
+  "max_searches_per_run": 20,
+  "extra_companies": [
+    {
+      "name": "Example Co",
+      "priority": 90,
+      "region": "South Bay",
+      "segment": "big"
+    },
+    {
+      "name": "Another Example Inc",
+      "priority": 85
+    }
+  ],
+  "exclude_companies": [],
+  "role_keywords": {
+    "core": [
+      "fp&a",
+      "financial planning",
+      "finance systems",
+      "financial systems",
+      "epm",
+      "finance transformation",
+      "strategic finance",
+      "headcount planning",
+      "workforce planning",
+      "financial analyst",
+      "financial modeling",
+      "business finance",
+      "forecasting",
+      "cash flow"
+    ],
+    "ai": [
+      "ai",
+      "automation",
+      "agent",
+      "agentic",
+      "llm",
+      "genai",
+      "generative ai",
+      "machine learning",
+      "python",
+      "sql"
+    ],
+    "adjacent": [
+      "controller",
+      "accounting systems",
+      "procurement",
+      "spend",
+      "revops",
+      "bizops",
+      "finance operations",
+      "saas metrics"
+    ]
+  },
+  "negative_keywords": [
+    "intern",
+    "internship",
+    "new grad",
+    "entry level",
+    "software engineer ii",
+    "warehouse",
+    "nurse",
+    "driver",
+    "sales development representative"
+  ],
+  "search_template": "finance (hiring OR role OR team)",
+  "proof_points": [
+    {
+      "id": "experience",
+      "text": "<one line: your years of experience and domain, e.g. 10+ years in FP&A at tech companies>",
+      "tags": [
+        "fp&a",
+        "financial planning",
+        "strategic finance"
+      ]
+    },
+    {
+      "id": "result",
+      "text": "<one line: a result with a real metric you can back up>",
+      "tags": [
+        "forecast",
+        "fp&a",
+        "finance transformation"
+      ]
+    },
+    {
+      "id": "automation",
+      "text": "<one line: an AI or automation project you built>",
+      "tags": [
+        "ai",
+        "automation",
+        "agent",
+        "agentic",
+        "llm",
+        "controller",
+        "close"
+      ]
+    }
+  ],
+  "repos": [
+    {
+      "name": "your-repo-one",
+      "pitch": "<what it does in one clause>",
+      "tags": [
+        "controller",
+        "accounting",
+        "close",
+        "agent"
+      ]
+    },
+    {
+      "name": "your-repo-two",
+      "pitch": "<what it does in one clause>",
+      "tags": [
+        "fp&a",
+        "forecast",
+        "financial planning"
+      ]
+    }
+  ],
+  "default_repo": "your-repo-one",
+  "company_ids": {
+    "Databricks": "3477522",
+    "Snowflake": "3653845",
+    "Stripe": "2135371",
+    "Meta": "10667",
+    "Amazon": "1586",
+    "Google": "1441",
+    "NVIDIA": "3608"
+  },
+  "_company_ids_note": "LinkedIn numeric company IDs for the authorCompany search filter. For a new company, open linkedin.com/company/<slug>/ and take the most frequent urn:li:company:<id> in the page HTML.",
+  "_search_note": "One search per company with these keywords, restricted by authorCompany. Finance keywords keep big companies (Amazon, Meta, Google) from flooding results with engineering/sales posts.",
+  "locations": {
+    "_note": "Roles must be in the SF Bay Area. South Bay scores highest. A stated location outside these lists drops the post; an unstated one is kept and flagged.",
+    "south_bay": [
+      "san jose",
+      "santa clara",
+      "sunnyvale",
+      "cupertino",
+      "mountain view",
+      "milpitas",
+      "campbell",
+      "los gatos",
+      "saratoga",
+      "los altos",
+      "morgan hill",
+      "south bay",
+      "silicon valley"
+    ],
+    "bay_area": [
+      "san francisco",
+      "sf bay area",
+      "bay area",
+      "palo alto",
+      "menlo park",
+      "redwood city",
+      "san mateo",
+      "foster city",
+      "burlingame",
+      "south san francisco",
+      "san bruno",
+      "oakland",
+      "emeryville",
+      "berkeley",
+      "fremont",
+      "newark",
+      "pleasanton",
+      "walnut creek",
+      "san ramon",
+      "dublin, ca"
+    ],
+    "remote": [
+      "remote"
+    ]
+  },
+  "resume_path": "/path/to/your/master_resume.docx",
+  "_resume_note": "Optional. Used only to give Claude context when drafting; the resume itself is never uploaded or committed.",
+  "solo_search_companies": [
+    "Amazon",
+    "Google",
+    "Meta"
+  ],
+  "_solo_note": "Very large employers get their own search so their posts don't crowd out smaller companies. Everyone else is packed into grouped searches of group_size companies, in priority order.",
+  "group_size": 8
+}

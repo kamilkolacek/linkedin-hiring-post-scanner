@@ -1,0 +1,12 @@
+# Personal data: never commit
+config.json
+scans/
+posts_*.json
+ranked*.json
+context.json
+*.docx
+*.xlsx
+.env
+__pycache__/
+*.pyc
+.DS_Store

@@ -1,0 +1,84 @@
+{
+ "scanned_at": "2026-11-13T08:30",
+ "_note": "FICTIONAL sample data for tests",
+ "searches": [
+  {
+   "company": "ServiceNow",
+   "result_count": 2,
+   "status": "ok"
+  },
+  {
+   "company": "Rippling",
+   "result_count": 1,
+   "status": "ok"
+  },
+  {
+   "company": "Roblox",
+   "result_count": 1,
+   "status": "ok"
+  }
+ ],
+ "posts": [
+  {
+   "company": "Rippling",
+   "author_name": "Sample Recruiter",
+   "author_headline": "Senior Technical Recruiter, Finance & G&A at Rippling",
+   "author_url": "https://www.linkedin.com/in/example-a",
+   "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:1",
+   "posted_hours_ago": 10,
+   "role_title": "Manager, Strategic Finance",
+   "location": "San Francisco (Hybrid)",
+   "text": "We're hiring a Manager, Strategic Finance to partner with GTM leadership. SaaS metrics, forecasting, SQL a plus."
+  },
+  {
+   "company": "ServiceNow",
+   "author_name": "Sample Leader",
+   "author_headline": "Director, FP&A Systems at ServiceNow",
+   "author_url": "https://www.linkedin.com/in/example-b",
+   "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:2",
+   "posted_hours_ago": 2,
+   "role_title": "Senior Manager, FP&A Systems",
+   "location": "Remote",
+   "text": "I'm hiring for my team! Senior Manager, FP&A Systems: EPM roadmap, and AI automation of our planning cycle."
+  },
+  {
+   "company": "Roblox",
+   "author_name": "Sample Teammate",
+   "author_headline": "Senior Financial Analyst at Roblox",
+   "author_url": "https://www.linkedin.com/in/example-c",
+   "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:3",
+   "posted_hours_ago": 20,
+   "role_title": "Workforce Planning Analyst",
+   "location": "San Mateo, CA",
+   "text": "My team has an opening in headcount planning and workforce planning. Anaplan experience helps."
+  },
+  {
+   "company": "ServiceNow",
+   "author_name": "Sample Intern Post",
+   "author_headline": "University Recruiter at ServiceNow",
+   "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:4",
+   "posted_hours_ago": 5,
+   "role_title": "Finance Intern",
+   "text": "Summer finance internship open!"
+  },
+  {
+   "company": "ServiceNow",
+   "author_name": "Old Post",
+   "author_headline": "Recruiter at ServiceNow",
+   "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:5",
+   "posted_hours_ago": 30,
+   "role_title": "FP&A Manager",
+   "text": "hiring FP&A"
+  },
+  {
+   "company": "Rippling",
+   "author_name": "Offsite Role",
+   "author_headline": "Recruiter at Rippling",
+   "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:6",
+   "posted_hours_ago": 3,
+   "role_title": "FP&A Manager",
+   "location": "Bengaluru, India",
+   "text": "Hiring an FP&A Manager."
+  }
+ ]
+}
