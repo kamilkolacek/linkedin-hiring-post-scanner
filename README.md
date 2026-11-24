@@ -1,5 +1,7 @@
 # LinkedIn Hiring-Post Scanner
 
+Repo: https://github.com/kamilkolacek/linkedin-hiring-post-scanner
+
 A Claude Code skill that scans LinkedIn for hiring posts from the last 24 hours at your target companies, ranks them against your background, and drafts outreach notes for you to send yourself.
 
 - **Read-only.** It never clicks Connect, Message, Follow, Like, Comment or Apply, and never sends anything.
